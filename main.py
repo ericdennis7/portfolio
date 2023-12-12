@@ -52,6 +52,12 @@ if selected == "Home":
                 Hi, I'm Eric Dennis, a senior at Georgia Southern University majoring in Networks/Cybersecurity under Information Technology, set to graduate in Fall 2024.
                 ''')
 
+    cover = [
+        dict(title="", text="", interval=None, img="https://www.thesimplebeliever.com/wp-content/uploads/2023/12/image.jpg"),
+        dict(title="", text="", img="https://www.thesimplebeliever.com/wp-content/uploads/2023/12/IMG20220823182117-scaled.jpg"),
+]
+        carousel(items=images)
+
     st.write('')
     st.subheader("My Academics")
     st.markdown('''
