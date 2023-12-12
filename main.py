@@ -219,6 +219,7 @@ if selected == "Projects":
         st.code("pivpn -qr\n")
         st.markdown("Once scanned, the a tunnel is created between the server and my phone for anonymity and ad-free browsing. This completes the installation of Pi-VPN for the server. An example is shown below:")
         st.video("https://www.thesimplebeliever.com/wp-content/uploads/2023/12/9309d312-3e48-4005-b85a-85a3201d5c6c.mp4")
+        st.write("")
         
     with st.expander("Linux (Debian) Network/Server Dashboard Widget for WordPress"):
         st.header("Linux (Debian) Network/Server Dashboard Widget for WordPress")
