@@ -176,12 +176,12 @@ if selected == "Projects":
                 ''')
 
         st.markdown("4. **Firewall Configuration**: Open firewall to accept DNS requests on port 53 (TCP and UDP). Since I am using AWS Lightsail, I went to the network configuration tab, attached a static IP address, and opened up port 53 to accept DNS requests. :red[The following IP address is fake for the sake of security. It has been changed.]")
-        st.image("https://www.thesimplebeliever.com/wp-content/uploads/2023/12/Lightsail-e1702398638544.png", width=500)
+        st.image("https://www.thesimplebeliever.com/wp-content/uploads/2023/12/Lightsail.png", width=500)
 
         st.markdown("5. **Additional Filters/Blocklists**:")
         st.markdown("- Access Pi-Hole's web interface to add more lists from firebog.net.")
-        st.image("https://www.thesimplebeliever.com/wp-content/uploads/2023/12/Adding-Adlist.png", width=500)
         st.image("https://www.thesimplebeliever.com/wp-content/uploads/2023/12/Adlist.png", width=500)
+        st.image("https://www.thesimplebeliever.com/wp-content/uploads/2023/12/finallist.png", width=500)
 
         st.markdown("6. **Update Lists**:")
         st.markdown("- Run the command to download and update the added lists.")
